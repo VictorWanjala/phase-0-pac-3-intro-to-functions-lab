@@ -2,8 +2,7 @@ require('./root.js');
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
-    // Placeholder implementation
-    // Replace with your own implementation of the shout function
+   
     function shout(string) {
       // Convert string to uppercase
       return string.toUpperCase();
@@ -15,8 +14,7 @@ describe('shout(string)', function() {
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
-    // Placeholder implementation
-    // Replace with your own implementation of the whisper function
+   
     function whisper(string) {
       // Convert string to lowercase
       return string.toLowerCase();
@@ -28,8 +26,7 @@ describe('whisper(string)', function() {
 
 describe('logShout(string)', function() {
   it('takes a string argument and logs it in all caps using console.log()', function() {
-    // Placeholder implementation
-    // Replace with your own implementation of the logShout function
+   
     function logShout(string) {
       // Convert string to uppercase and log it
       console.log(string.toUpperCase());
@@ -47,8 +44,7 @@ describe('logShout(string)', function() {
 
 describe('logWhisper(string)', function() {
   it('takes a string argument and logs it in all lowercase using console.log()', function() {
-    // Placeholder implementation
-    // Replace with your own implementation of the logWhisper function
+    
     function logWhisper(string) {
       // Convert string to lowercase and log it
       console.log(string.toLowerCase());
@@ -66,8 +62,7 @@ describe('logWhisper(string)', function() {
 
 describe('sayHiToHeadphonedRoommate(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    // Placeholder implementation
-    // Replace with your own implementation of the sayHiToHeadphonedRoommate function
+    
     function sayHiToHeadphonedRoommate(string) {
       // Check if string is lowercase
       if (string === string.toLowerCase()) {
@@ -79,8 +74,7 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
   })
 
   it('returns "YES INDEED!" if `string` is uppercase', function() {
-    // Placeholder implementation
-    // Replace with your own implementation of the sayHiToHeadphonedRoommate function
+    
     function sayHiToHeadphonedRoommate(string) {
       // Check if string is uppercase
       if (string === string.toUpperCase()) {
@@ -92,8 +86,7 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
   })
 
   it('returns "I would love to!" if `string` is "Let\'s have dinner together!"`', function () {
-    // Placeholder implementation
-    // Replace with your own implementation of the sayHiToHeadphonedRoommate function
+   
     function sayHiToHeadphonedRoommate(string) {
       // Check if string matches specific value
       if (string === "Let's have dinner together!") {
